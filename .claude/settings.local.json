@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('c:/Users/Filip/Desktop/UMISI/Stochastic-Methods-in-Machine-Learning/04-mbo/lab.ipynb'\\)\\); cells=nb['cells']; print\\([\\(i, c.get\\('id','NO_ID'\\), c['cell_type'], str\\(c['source']\\)[:60]\\) for i,c in enumerate\\(cells[-6:]\\)]\\)\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('c:/Users/Filip/Desktop/UMISI/Stochastic-Methods-in-Machine-Learning/04-mbo/lab.ipynb'\\)\\); print\\('nbformat:', nb.get\\('nbformat'\\), nb.get\\('nbformat_minor'\\)\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
