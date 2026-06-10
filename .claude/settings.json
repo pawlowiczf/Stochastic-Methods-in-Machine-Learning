@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pymoo, pandas, numpy; print\\('pymoo', pymoo.__version__\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
